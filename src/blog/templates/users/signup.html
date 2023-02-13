@@ -1,0 +1,28 @@
+{% extends "users/auth_base.html" %} {% block content %} {% load static %}
+<section class="wrapper">
+  <section class="login">
+    <div class="form">
+      <div class="top">
+        <h2>Signup Page</h2>
+      </div>
+      <div class="bottom">
+        <form action="" method="post">
+          {% csrf_token %} {% for field in form %}
+          <div class="input-container"></div>
+          <label for="{{field.id_for_label}}">{{field.label}}</label>
+          {{field}} {% endfor %}
+          <div class="submit-container">
+            {% if error %}
+            <p class="error-message">{{message}}</p>
+            {% endif %}
+            <div class="buttons">
+              <button type="submit" class="common">Create Account</button>
+              <a class="common" href="{% url 'users:login' %}">Login</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

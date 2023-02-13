@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #253858;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: #253858;
+}
+
+/* p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 500;
+  color: #42526e;
+} */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+#login_page {
+  background-color: #c4dce8;
+  padding: 100px;
+  min-height: 100vh;
+}
+#login_page .login {
+  width: 35%;
+  margin: 0 auto;
+}
+#login_page .login .form {
+}
+#login_page .login .form div.top {
+  background-color: #417690;
+  padding: 15px 0;
+}
+#login_page .login .form div.top h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+#login_page .login .form div.bottom {
+  background-color: #fff;
+  padding: 30px 20px;
+}
+#login_page .login .form div.bottom form {
+  display: flex;
+  flex-direction: column;
+}
+#login_page .login .form div.bottom form label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#login_page .login .form div.bottom form input {
+  background-color: #c4dce8;
+  padding: 10px;
+  border-radius: 4px;
+}
+#login_page .login .form div.bottom form input {
+  margin-bottom: 15px;
+}
+#login_page .login .form div.bottom form input:last-child {
+  margin-bottom: 0;
+}
+#login_page .login .form div.bottom form button.common {
+}
+p {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+div.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.common {
+  background-color: #609ab6;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 10px 12px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+}
+button {
+  margin: 0 auto;
+}
